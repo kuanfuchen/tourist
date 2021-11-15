@@ -1,0 +1,259 @@
+// @import './utils/variables.scss';
+.page-item {
+  cursor: pointer;
+}
+
+.btn-outline-pink {
+  cursor: pointer;
+  font-weight: 500;
+  color: #ff1d6c;
+  border: 1px solid #ff1d6c;
+
+  &:hover {
+    color: #fff;
+    border: 1px solid #ff1d6c;
+    background-color: #ff1d6c;
+  }
+}
+
+.btn-outline-pink.active {
+  color: #fff;
+  border: 1px solid #ff1d6c;
+  background-color: #ff1d6c;
+}
+
+.btn-pink {
+  background-color: #ff1d6c;
+  color: #fff;
+  font-weight: 500;
+}
+
+.dialogBtnPosition {
+  position: absolute;
+  top: 0%;
+  left: 101%;
+}
+
+.cityNameSpace {
+  margin-left: 20px
+}
+
+.cityIndexStyle {
+  width: 202px;
+  height: 245px;
+  padding: 12px;
+  background-color: #fff;
+  border: 1px solid rgba(13, 11, 12, 0.2);
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 3px rgba(14, 12, 13, 0.4));
+}
+
+.pxContainer {
+  box-sizing: border-box;
+  width: 1140px;
+  justify-content: center;
+}
+
+.cityIndexhalfStyle {
+  width: 202px;
+  height: 120px;
+  padding: 6px;
+  background-color: #fff;
+  border: 1px solid rgba(13, 11, 12, 0.2);
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+  filter: drop-shadow(0px 4px 3px rgba(14, 12, 13, 0.4));
+}
+
+.cityIconStyle {
+  position: absolute;
+  left: 71px;
+  top: 99px;
+  z-index: 99;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.cityIconhalfStyle {
+  position: absolute;
+  left: 71px;
+  top: 38px;
+  z-index: 99;
+  color: #fff;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.selectCityImgTransition {
+  filter: brightness(0.8)
+}
+
+.selectCityImgTransition:hover {
+  transition: filter 0.5s ease-in-out;
+  filter: brightness(1.0)
+}
+
+.pink {
+  color: #ff1d6c
+}
+
+.bgPink {
+  background: #ff1d6c !important;
+}
+
+.positionAbsolute {
+  position: absolute;
+}
+
+.btnCityPageRight {
+  left: 100%;
+  top: 99px;
+}
+
+.btnCityPageLeft {
+  right: 100%;
+  top: 99px;
+}
+
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background-position: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+  // height: 42px;
+}
+
+.cardSiteImgBox {
+  height: 137px;
+  width: 182px;
+  background-color: #fff;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cardSiteImg {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.activeCardImgbox {
+  width: 187px;
+  height: 196px;
+  overflow: hidden;
+}
+
+.activeCardImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+}
+
+@media (min-width: 576px) {
+  .modal .modal-dialog {
+    max-width: 671px;
+    margin: 1.75rem auto;
+  }
+}
+
+.cardSiteImg {
+  // 
+  transform: scale(1, 1);
+  transition: all 0.5s ease-out;
+
+}
+
+.cardSiteImg:hover {
+  transform: scale(1.2, 1.2);
+}
+
+.indexHeaderText {
+  margin: 0px 27px 0px 8px;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.headerBtnStyle {
+  border-radius: 63px;
+  border: 1px solid #1FB588;
+  color: #1FB588;
+
+}
+
+
+
+.selectRound {
+  max-width: 217px;
+
+}
+
+.titleSize {
+  text-align: left;
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.ellipsisDescription {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  background-position: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: left;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
+}
+
+.footerStyle {
+  width: 100%;
+  background-color: white;
+  height: 65px;
+  font-size: 12px;
+  color: #acacac;
+  display: flex;
+  justify-content: center;
+}
+
+.cardIndexShowadow {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+}
+
+.cardModalShowadow {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+
+}
+
+// transform
+.no-mode-fade-enter-active,
+.no-mode-fade-leave-active {
+  transition: opacity 0.5s
+}
+
+.no-mode-fade-enter-from,
+.no-mode-fade-leave-to {
+  opacity: 0
+}
