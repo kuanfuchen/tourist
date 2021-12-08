@@ -2,7 +2,7 @@
 
 ## Project setup
 ```
-npm install
+Vue 3
 axios，vue-axios
 bootstrap 5,
 jssha
